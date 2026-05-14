@@ -1,0 +1,92 @@
+/* ===== База ===== */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #222;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+/* ===== Стартовый экран и результаты по умолчанию скрыты ===== */
+#quiz-container,
+#result-area {
+    display: none;
+}
+
+/* ===== Таймер ===== */
+#timer-box {
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+/* ===== Вопросы ===== */
+.question {
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.question p {
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+
+.question label {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.question input[type="text"],
+.question select {
+    padding: 4px 6px;
+    font-size: 14px;
+}
+
+/* ===== Кнопки ===== */
+button {
+    padding: 6px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ===== Таблица результатов ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #999;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+table th {
+    background: #eee;
+}
+
+/* Подсветка ответов */
+tr.correct {
+    background: #d6f5d6;
+}
+
+tr.incorrect {
+    background: #f5d6d6;
+}
+
+#total-score {
+    font-weight: bold;
+    margin-top: 12px;
+}

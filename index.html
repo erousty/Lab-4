@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--Терешкин 25ВП1 Вариант 23-->
+<html>
+    <head>
+        <title>Тест</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="js/main.js" defer></script>
+        <link rel="icon" href="data:,">
+    </head>
+    <body>
+        
+        <div>Лабораторная работа № 4 Терешкин Алексей 25ВП1 вариант 23</div>
+        <h2>Предмет «История».</h2>
+        <h1>Тестирование по теме «Россия в Новое время».</h1>
+        
+        <div>
+            <div id="start-screen">
+                <p>На выполнение теста дается 10 минут.</p>
+                <button id="start-btn">Начать тест</button>
+            </div>
+
+            <div id="quiz-container">
+                <div id="timer-box">Оставшееся время: 
+                    <span 
+                        id="timer">10:00
+                    </span>
+                </div>
+
+                <form id="quiz-form">
+                    <div class="question">
+                        <p>
+                            1. В каком году был основан Санкт-Петербург?
+                        </p>
+                        <label><input type="radio" name="q1" value="1700">
+                            1700
+                        </label><br>
+                        <label><input type="radio" name="q1" value="1703">
+                            1703
+                        </label><br>
+                        <label><input type="radio" name="q1" value="1709">
+                            1709
+                        </label><br>
+                        <label><input type="radio" name="q1" value="1721">
+                            1721
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <p>2. Против какого государства Россия 
+                            вела Северную войну (1700–1721)?</p>
+                        <label><input type="radio" name="q2" value="Швеция">
+                            Швеция
+                        </label><br>
+                        <label><input type="radio" name="q2" value="Франция">
+                            Франция
+                        </label><br>
+                        <label><input type="radio" name="q2"
+                                      value="Османская империя">
+                            Османская империя
+                        </label><br>
+                        <label><input type="radio" name="q2" value="Пруссия">
+                            Пруссия
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <p>3. Кто из перечисленных правил Россией в 
+                            XVIII веке? (несколько ответов)</p>
+                        <label><input type="checkbox" name="q3" 
+                                      value="Екатерина II">
+                            Екатерина II
+                        </label><br>
+                        <label><input type="checkbox" name="q3" 
+                                      value="Елизавета Петровна">
+                            Елизавета Петровна
+                        </label><br>
+                        <label><input type="checkbox" name="q3" 
+                                      value="Александр II">
+                            Александр II
+                        </label><br>
+                        <label><input type="checkbox" name="q3" value="Павел I">
+                            Павел I
+                        </label>
+                    </div>
+
+                    <div class="question">
+                         <p>4. Какие из перечисленных реформ относятся 
+                             к «Великим реформам»
+                         Александра II? (несколько ответов)</p>
+                        <label><input type="checkbox" name="q4" 
+                                      value="Крестьянская реформа">
+                            Крестьянская реформа
+                        </label><br>
+                        <label><input type="checkbox" name="q4" 
+                                      value="Земская реформа">
+                            Земская реформа
+                        </label><br>
+                        <label><input type="checkbox" name="q4" 
+                                      value="Судебная реформа">
+                            Судебная реформа
+                        </label><br>
+                        <label><input type="checkbox" name="q4" 
+                                      value="Введение опричнины">
+                            Введение опричнины
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <p>5. Какое сражение произошло в 1812 году?</p>
+                        <select name="q5">
+                            <option value="">--Выберите--</option>
+                            <option value="Полтавская битва">
+                                Полтавская битва</option>
+                            <option value="Бородинское сражение">
+                                Бородинское сражение</option>
+                            <option value="Синопское сражение">
+                                Синопское сражение</option>
+                            <option value="Куликовская битва">
+                                Куликовская битва</option>
+                        </select>
+                    </div>
+
+                    <div class="question">
+                        <p>6. Каким был итог Крымской войны 
+                            (1853–1856) для России?</p>
+                        <select name="q6">
+                            <option value="">--Выберите--</option>
+                            <option value="Победа России">Победа России</option>
+                            <option value="Поражение России">
+                                Поражение России</option>
+                            <option value="Без победителя">
+                                Война окончилась без победителя</option>
+                            <option value="Без боёв">Война была остановлена 
+                                дипломатически до боёв</option>
+                        </select>
+                    </div>
+
+                    <div class="question">
+                         <p>7. В каком году было отменено крепостное 
+                             право в России? (введите 4 цифры)</p>
+                        <input type="text" name="q7" placeholder="Ваш ответ">
+                    </div>
+
+                    <div class="question">
+                        <p>8. Назовите фамилию полководца, 
+                            командовавшего русской армией
+                        в Бородинском сражении:</p>
+                        <input type="text" name="q8" placeholder="Ваш ответ">
+                    </div>
+
+                    <div class="question">
+                        <p>9. В каком году произошло восстание декабристов?</p>
+                        <label><input type="radio" name="q9" value="1812">
+                            1812
+                        </label><br>
+                        <label><input type="radio" name="q9" value="1825">
+                            1825
+                        </label><br>
+                        <label><input type="radio" name="q9" value="1855">
+                            1855
+                        </label><br>
+                        <label><input type="radio" name="q9" value="1861">
+                            1861
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <p>10. Кем был М. М. Сперанский?</p>
+                        <label><input type="radio" name="q10" 
+                                      value="Военачальник">
+                            Военачальник
+                        </label><br>
+                        <label><input type="radio" name="q10" 
+                                      value="Государственный деятель">
+                            Государственный деятель и 
+                            реформатор при Александре I
+                        </label><br>
+                        <label><input type="radio" name="q10" value="Историк">
+                            Историк
+                        </label><br>
+                        <label><input type="radio" name="q10" value="Художник">
+                            Художник
+                        </label>
+                    </div>
+
+                    <button type="button" id="submit-btn">
+                        Завершить тест
+                    </button>
+                </form>
+            </div> 
+
+            <div id="result-area">
+                <h2>Результаты теста</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N</th>
+                            <th>Вопрос</th>
+                            <th>Ваш ответ</th>
+                            <th>Правильный ответ</th>
+                            <th>Баллы</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+                <p id="total-score"></p>
+                <button onclick="location.reload()">Пройти тест заново</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
